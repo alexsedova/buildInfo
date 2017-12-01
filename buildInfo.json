@@ -1,0 +1,17 @@
+{
+	"version" : "1.0.0", // Build Info schema version
+	"name" : "general-components",
+ 	"modules" : [ { // The build's first module
+    	"id" : "general-components:buildInfo:1.0.0",
+    	"dependencies" : [ {
+      		"id" : "general-components:componentA:1.0.0",
+      		"scopes" : [ "compile" ]
+    	}, {
+      		"id" : "general-components:componentB:1.0.0",
+      		"scopes" : [ "compile" ]
+    	}, {
+      		"id" : "general-components:componentC:1.0.0",
+      		"scopes" : [ "compile" ]
+    	} ]
+  } ]
+ }
